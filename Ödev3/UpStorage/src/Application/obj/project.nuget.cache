@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H6NLeTvqxPHLCasiA3TcCuLfm9x1k8av3KB1bgTZGjvZ5OqvmbGulaZYHVi1Wve3cobXZS6A15p1XGyasx2kYA==",
+  "dgSpecHash": "9ocB/NZEFJUYSwjzjofyV0XWkIDrQcV1E/vVu0TmHRko/kcApgX8FZyhYKqAgCUsSV8UQw0eH8RabHueOOf5Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\UpStorage\\src\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev3\\UpStorage\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
