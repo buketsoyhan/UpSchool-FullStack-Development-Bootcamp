@@ -9,7 +9,7 @@ namespace Infrastructure.Persistence.Configurations.Application
     {
         public void Configure(EntityTypeBuilder<Address> builder)
         {
-
+            //Address Type enum olduğu için veritabanına yazarken int'e çeviriyor kodda yine enum olarak kullanabiliyoruz.
             builder.Property(x => x.AddressType).IsRequired();
             builder.Property(x => x.AddressType).HasConversion<int>();
 
