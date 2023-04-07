@@ -1,5 +1,4 @@
 ﻿using Application.Common.Interfaces;
-using Application.Features.Cities.Queries.GetAll;
 using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
