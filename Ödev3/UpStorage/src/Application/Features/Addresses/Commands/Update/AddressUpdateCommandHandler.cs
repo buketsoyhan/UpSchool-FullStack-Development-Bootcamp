@@ -1,4 +1,4 @@
-﻿namespace Application.Features.Cities.Commands.Update
+﻿namespace Application.Features.Addresses.Commands.Update
 {
     public class AddressUpdateCommandHandler
     {
