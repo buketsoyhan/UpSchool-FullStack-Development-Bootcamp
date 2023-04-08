@@ -9,6 +9,11 @@ namespace Application.Features.Addresses.Commands.Add
     {
         private readonly IApplicationDbContext _applicationDbContext;
 
+        public AddressAddCommandHandler(IApplicationDbContext applicationDbContext)
+        {
+            _applicationDbContext = applicationDbContext;
+        }
+
         public async Task<Response<int>> Handle(AddressAddCommand request, CancellationToken cancellationToken)
         {
             var address = new Address()

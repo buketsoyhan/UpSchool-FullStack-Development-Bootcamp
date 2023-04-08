@@ -1,6 +1,10 @@
-﻿namespace Application.Features.Addresses.Commands.Delete
+﻿using Domain.Common;
+using MediatR;
+
+namespace Application.Features.Addresses.Commands.Delete
 {
-    public class AddressDeleteCommand
+    public class AddressDeleteCommand:IRequest<Response<int>>
     {
+        public int Id { get; set; }
     }
 }

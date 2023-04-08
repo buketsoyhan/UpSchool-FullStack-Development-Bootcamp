@@ -1,6 +1,10 @@
-﻿namespace Application.Features.Addresses.Commands.Update
+﻿using Domain.Common;
+using MediatR;
+
+namespace Application.Features.Addresses.Commands.Update
 {
-    public class AddressUpdateCommand
+    public class AddressUpdateCommand : IRequest<Response<int>>
     {
+        public int Id { get; set; }
     }
 }
