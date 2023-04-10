@@ -1,7 +1,7 @@
 ﻿using Domain.Common;
 using MediatR;
 
-namespace Application.Features.Cities.Commands.Hard_Delete
+namespace Application.Features.Addresses.Commands.HardDelete
 {
     public class AddressHardDeleteCommand:IRequest<Response<int>>
     {

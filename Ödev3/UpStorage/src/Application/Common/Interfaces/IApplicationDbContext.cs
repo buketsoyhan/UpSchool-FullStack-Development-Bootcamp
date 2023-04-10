@@ -8,7 +8,6 @@ namespace Application.Common.Interfaces
         DbSet<Account> Accounts { get; set; }
         DbSet<Country> Countries { get; set; }
         DbSet<City> Cities { get; set; }
-        DbSet<Address> Addresses { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         int SaveChanges();

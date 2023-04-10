@@ -1,10 +1,11 @@
 ﻿using Application.Features.Cities.Commands.Add;
 using Application.Features.Cities.Queries.GetAll;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Filters;
 
 namespace WebApi.Controllers
 {
-
+    [ValidationFilter]
     public class CitiesController : ApiControllerBase
     {
         [HttpPost]
@@ -13,7 +14,7 @@ namespace WebApi.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        [HttpPost]
+        [HttpPost("GetAll")]
         public async Task<IActionResult> GetAllAsync(CityGetAllQuery query)
         {
             return Ok(await Mediator.Send(query));
