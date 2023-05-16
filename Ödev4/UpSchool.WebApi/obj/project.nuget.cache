@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHcT9i7l73cgEChq/szHzm70kEwsJguuVmnD13xUsFHhxh2Q+G8cluXIR/wYwfsi42OnYS2GAVnv5xtLHVjmGg==",
+  "dgSpecHash": "HOU5K0VaUftT8YWPUXFS8GqIDRWIjR+PvozresXVy0Ah7pk2sy6EDtN9G6dq0IoROZOivpW0UOEeUFB21x14xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

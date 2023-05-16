@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj": {}
+    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
         "projectName": "UpSchool.Domain",
-        "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+        "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
         "packagesPath": "C:\\Users\\buket\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\obj\\",
+        "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj": {
+    "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
+        "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
         "projectName": "UpSchool.Selenium.ConsoleClient",
-        "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
+        "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
         "packagesPath": "C:\\Users\\buket\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\obj\\",
+        "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
-                "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
+              "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+                "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
               }
             }
           }

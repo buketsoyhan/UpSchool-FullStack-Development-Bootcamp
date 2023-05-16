@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K6fScF2+fShIJawB2Wdnis9lMG5Y8UVCQfdhmDDVDErijmrIIT0O1R3QMtOXBNp1A6SUMgcGzuB1LjArXcEV5g==",
+  "dgSpecHash": "gErEqbW/0L/luDL/SFYuP+2kp53gST8vxg5OnJOCV8bC2ADrCUaAUK1AhPN5hAij/kHrbscZGwyCrJdxWaURKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

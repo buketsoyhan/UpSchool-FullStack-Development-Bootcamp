@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+xHeNEJZv80+c9tlQX7eUX0V5F+42/CcRbRFFKY6waGNVUWb+6JRzieScLFFntVqzqcmYdEn0HVe8WVAcCUxTg==",
+  "dgSpecHash": "ruCjVY9iigzk8j03BG9swWsQDdJLjLAv7BWWCqzFpwlNlMwjkOxmT1Gx0ImJWEOIsoxo+FJp35GIwUn4PSn2dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Selenium.ConsoleClient\\UpSchool.Selenium.ConsoleClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.5\\microsoft.aspnetcore.connections.abstractions.7.0.5.nupkg.sha512",

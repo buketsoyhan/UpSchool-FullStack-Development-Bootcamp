@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IiemrbslBEIREk2OUatA9/Ju1p5pQFpKVM9Gr3SIdJMPSS+JTJsP49J5XFlnTENhzbo9jBSXQ1ky+gO3f7LPQA==",
+  "dgSpecHash": "YLZYVgOEHdvDcKd6sCAiAcGL32FACXvW3zTpZtQIYBxk++/BLKgLvpma+Br7bx7G7chcFfh0rMXDlsS7wPLFIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.Persistence\\UpSchool.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

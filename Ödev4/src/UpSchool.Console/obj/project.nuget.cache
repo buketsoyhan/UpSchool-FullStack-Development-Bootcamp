@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QYmihrtug2oUkNTLTUgMED/uyTNb4HwzSdhKcAur3rRQaqBQ9kTQPsiy1d9+7t6lS7gTBDk6NL0VFCKfzL/j6w==",
+  "dgSpecHash": "8LpjXrqI2ej9I2lK91Ar4M42DONykp4GJ6AKIrV5xHlnkuzNjRpqJmETPEBMQ0PxaX7p5cI1T1p87JDW7qxzcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Console\\UpSchool.Console.csproj",
+  "projectFilePath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Console\\UpSchool.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buket\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.2\\microsoft.aspnetcore.cryptography.internal.7.0.2.nupkg.sha512",
     "C:\\Users\\buket\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.2\\microsoft.aspnetcore.cryptography.keyderivation.7.0.2.nupkg.sha512",

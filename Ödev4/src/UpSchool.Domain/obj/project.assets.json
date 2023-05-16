@@ -255,11 +255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
       "projectName": "UpSchool.Domain",
-      "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+      "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
       "packagesPath": "C:\\Users\\buket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\obj\\",
+      "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

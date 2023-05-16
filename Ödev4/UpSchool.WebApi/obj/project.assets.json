@@ -7382,11 +7382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
       "projectName": "UpSchool.WebApi",
-      "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
+      "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.WebApi\\UpSchool.WebApi.csproj",
       "packagesPath": "C:\\Users\\buket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7408,11 +7408,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
-              "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
+            "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj": {
+              "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\src\\UpSchool.Domain\\UpSchool.Domain.csproj"
             },
-            "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj": {
-              "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-TheBasics\\TheBasics\\UpSchool.Persistence\\UpSchool.Persistence.csproj"
+            "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.Persistence\\UpSchool.Persistence.csproj": {
+              "projectPath": "C:\\Users\\buket\\Documents\\GitHub\\UpSchool-FullStack-Development-Bootcamp\\Ödev4\\UpSchool.Persistence\\UpSchool.Persistence.csproj"
             }
           }
         }
