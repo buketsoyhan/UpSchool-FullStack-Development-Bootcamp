@@ -69,5 +69,85 @@ namespace UpSchool.Domain.Tests.Services
             // Assert
             Assert.Equal(expectedUser, user);
         }
+
+        [Fact]
+        public async Task DeleteAsync_ShouldReturnTrue_WhenUserExists()
+        {
+            // Arrange
+            var userRepositoryMock = A.Fake<IUserRepository>();
+            var userService = new UserManager(userRepositoryMock);
+            var user = new User { Id = Guid.Empty, Email = "test@asdas.com" };
+            var cancellationSource = new CancellationTokenSource();
+
+            // Act and Assert
+            Assert.ThrowsAsync<ArgumentException>(() => userService.UpdateAsync(user,cancellationSource.Token));
+        }
+
+        [Fact]
+        public async Task DeleteAsync_ShouldThrowException_WhenUserDoesntExists()
+        {
+            // Arrange
+            var userRepositoryMock = A.Fake<IUserRepository>();
+            var userService = new UserManager(userRepositoryMock);
+            var cancellationSource = new CancellationTokenSource();
+
+            // Act and Assert
+            await Assert.ThrowsAsync<ArgumentException>(() => userService.DeleteAsync(Guid.Empty, cancellationSource.Token));
+        }
+
+        [Fact]
+        public void UpdateAsync_ShouldThrowException_WhenUserIdIsEmpty()
+        {
+            // Arrange
+            var userRepositoryMock = A.Fake<IUserRepository>();
+            var userService = new UserManager(userRepositoryMock);
+            var user = new User { Id = Guid.Empty, Email = "test@asdas.com" };
+            var cancellationSource = new CancellationTokenSource();
+
+
+            // Act and Assert
+            Assert.ThrowsAsync<ArgumentException>(() => userService.UpdateAsync(user,cancellationSource.Token));
+        }
+
+        [Fact]
+        public void UpdateAsync_ShouldThrowException_WhenUserEmailEmptyOrNull()
+        {
+            // Arrange
+            var userRepositoryMock = A.Fake<IUserRepository>();
+            var userService = new UserManager(userRepositoryMock);
+            var user = new User { Id = Guid.NewGuid(), Email = null };
+            var cancellationSource = new CancellationTokenSource();
+
+
+            // Act and Assert
+            Assert.ThrowsAsync<ArgumentException>(() => userService.UpdateAsync(user, cancellationSource.Token));
+            Assert.ThrowsAsync<ArgumentException>(() => userService.UpdateAsync(new User { Id = Guid.NewGuid(), Email = string.Empty }, cancellationSource.Token));
+        }
+
+
+        [Fact]
+        public async Task GetAllAsync_ShouldReturn_UserListWithAtLeastTwoRecords()
+        {
+            // Arrange
+            var userRepositoryMock = A.Fake<IUserRepository>();
+            var userService = new UserManager(userRepositoryMock);
+            var cancellationSource = new CancellationTokenSource();
+
+            var userList = new List<User>
+            {
+                new User { Id = Guid.NewGuid(), Email = "user1@asdas.com" },
+                new User { Id = Guid.NewGuid(), Email = "user2@asdas.com" }
+            };
+
+            A.CallTo(() => userRepositoryMock.GetAllAsync(cancellationSource.Token))
+                .Returns(userList);
+
+            // Act
+            var result = await userService.GetAllAsync(cancellationSource.Token);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.True(result.Count >= 2);
+        }
     }
 }
