@@ -7,8 +7,7 @@ const TodoApp: React.FC = () => {
   const [newTodo, setNewTodo] = useState('');
   const [activeSection, setActiveSection] = useState('incomplete');
   const [idCounter, setIdCounter] = useState(1);
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
-
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
   const addTodo = () => {
     if (newTodo.trim() === '') {
@@ -22,7 +21,7 @@ const TodoApp: React.FC = () => {
     };
     setTodos([...todos, todo]);
     setNewTodo('');
-    setIdCounter(idCounter + 1)
+    setIdCounter(idCounter + 1);
   };
 
   const removeTodo = (id: number) => {
@@ -36,7 +35,6 @@ const TodoApp: React.FC = () => {
     );
     setTodos(updatedTodos);
   };
-
   const sortTodos = () => {
     const sortedTodos = [...todos].sort((a, b) => {
       if (sortOrder === 'asc') {
@@ -45,18 +43,18 @@ const TodoApp: React.FC = () => {
         return b.createdDate.getTime() - a.createdDate.getTime();
       }
     });
-    setTodos(sortedTodos);
     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+    setTodos(sortedTodos);
   };
 
   return (
     <div style={{
-      display: 'flex',  justifyContent: 'center',  background: 'url("/backgroundBasic.jpg")',
+      display: 'flex', justifyContent: 'center', background: 'url("/backgroundBasic.jpg")',
       backgroundSize: 'cover',
       minHeight: '100vh',
     }}>
       <Container>
-        <Header style={{ display: 'flex', marginBlock:"5%", justifyContent: 'center',color:"gray" }} as="h1">Todo App</Header>
+        <Header style={{ display: 'flex', marginBlock: "5%", justifyContent: 'center', color: "gray" }} as="h1">Todo App</Header>
         <Input
           fluid
           placeholder="Enter a new todo..."
@@ -73,7 +71,7 @@ const TodoApp: React.FC = () => {
           <Menu.Menu position="right">
             <Menu.Item>
               <Button onClick={sortTodos}>
-                {sortOrder === 'asc' ? 'Sort Ascending' : 'Sort Descending'}
+                {sortOrder === 'asc' ? 'Sort Descending' : 'Sort Ascending'}
               </Button>
             </Menu.Item>
           </Menu.Menu>
